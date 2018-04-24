@@ -1,8 +1,0 @@
-# Ignore .DS_Store files created by mac
-.DS_Store
-
-# Ignore the jpm node_modules
-node_modules
-
-# Ignore previously generated xpi files
-*.xpi

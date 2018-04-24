@@ -1,18 +1,23 @@
 {
-  "name" : "OpenTok Screen Sharing",
-  "author": "TokBox, Inc.",
+  "name" : "Crowdcast Screen Sharing Dev",
+  "author": "Crowdcast, Inc.",
   "version" : "2.0",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
-  "description" : "This Chrome extension is developed primary for http://tokbox.com/. It doesn't do anything except capture content of your screen.",
-  "homepage_url": "http://tokbox.com/",
+  "description" : "This Chrome extension is developed for https://www.crowdcast.io/. It doesn't do anything except capture content of your screen.",
+  "homepage_url": "http://www.crowdcast.io/",
   "background": {
     "scripts": ["background-script.js"],
     "persistent": false
   },
   "externally_connectable": {
     "matches": [
-      "https://*.change-this-to-your-domain.com/*"
+      "https://www.rusticdisco.com/*",
+      "https://crowdcast-dev.herokuapp.com/*",
+      "http://localhost/*",
+      "https://*.crowdcast.io/*",
+      "http://*.rusticdisco.com/*",
+      "https://*.rusticdisco.com/*"
     ]
   },
   "icons": {
